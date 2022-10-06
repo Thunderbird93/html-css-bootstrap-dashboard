@@ -3,8 +3,23 @@ header {
     height: 55px;
 }
 
+img {
+    width: 100%;
+}
+
 .ac-container {
-    margin: 10px 5px;
+    margin: 0 auto;
     background-color: red;
-    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.debug {
+    background-color: blue;
+    min-height: 35px;
+}
+
+header .centrato {
+    align-items: center;
+    justify-content: center;
 }
