@@ -1,25 +1,33 @@
-header {
-    background-color: #F8F9FA;
-    height: 55px;
-}
+/*
+General
+*/
 
 img {
     width: 100%;
 }
 
-.ac-container {
-    margin: 0 auto;
-    background-color: red;
-    display: flex;
-    align-items: center;
-}
+/*
+Utilitie
+*/
 
 .debug {
     background-color: blue;
     min-height: 35px;
 }
 
-header .centrato {
-    align-items: center;
-    justify-content: center;
+/*
+Header
+*/
+
+header {
+    background-color: #F8F9FA;
+    height: 55px;
 }
+
+header .fa-bell {
+    color: #EF9536;
+}
+
+/*
+Main 
+*/
